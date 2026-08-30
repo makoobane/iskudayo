@@ -16,3 +16,4 @@ def printLinkedList(n:Node):
         currentNode=currentNode.next
     print("None")
 printLinkedList(n1)
+
