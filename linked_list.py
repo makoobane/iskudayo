@@ -50,9 +50,9 @@ def deleteNode(starting:Node,deleteNode:Node):
       while(currentNode):
           if currentNode.next==deleteNode:
               currentNode.next=deleteNode.next
-          currentNode=currentNode.next;
+          currentNode=currentNode.next
+      return starting
 
-# deleteNode(n3,n1)
-# printLinkedList(n1)
+printLinkedList(deleteNode(n1,n3))
 
     
